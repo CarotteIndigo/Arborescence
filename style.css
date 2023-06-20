@@ -12,22 +12,24 @@ body {
     width:100%;
     height:20%;
     font-size:x-large;
+    columns: 3;
+    
 }
-.colonne {
+.colheader {
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px;   
 
 }
-.style1 {
-    width: 20%;
+.colHeader1{
+    flex: 1,5;
 }
 
-.style2 {
-    width: 40%;
+.colHeader2{
+    flex: 3,5;
 }
 
-.style3 {
-    width: 40%;
+.colHeader3 {
+    flex: 1;
 }
 
 .imageLogo {
@@ -50,6 +52,7 @@ body {
     border-bottom-right-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    align-items: center;
     
    
 }
@@ -64,6 +67,7 @@ body {
     border-bottom-right-radius: 4px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+
 }
 
 .h1 {
@@ -72,6 +76,8 @@ body {
     color:rgb(21, 18, 18);
     align-items: stretch;
     justify-content: center;
+    position: relative;
+
 }
 
 .h2 {
@@ -148,6 +154,8 @@ font-style: italic;
     display: flex;
     background-color: rgb(61, 95, 169);
     padding: 20px;
+    font-size: x-large;
+    border-radius: 10px;
     
 
 }
@@ -173,8 +181,8 @@ font-style: italic;
     bottom: 20px;
     right: 30px;
 }
-.labelClass{
-    font-size:x-large;
+.label {
+    font-size: xx-large;
     font-style: strong;
 
 
@@ -183,4 +191,13 @@ font-style: italic;
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: x-large;
+}
+.pFooter {
+    font-size: xx-large;
+    font-optical-sizing:inherit center;
+
+}
+.submitButton {
+    background-color:rgb(232, 85, 85);
 }
