@@ -15,9 +15,9 @@
 
 <body>
     <header class="header">
-        <img src="/ArborescenceImages/ArborescenceTrsFin.jpg" class="imageLogo colHeader1 " alt="logo Arborescence">
-        <h1 class="h1 colHeader2">Arborescence</h1>
-        <div class="colHeader3">
+        <img src="/ArborescenceImages/ArborescenceTrsFin.jpg" class="imageLogo" alt="logo Arborescence">
+        <h1 class="h1">Arborescence</h1>
+        <div class="">
         <a href="musique.html" target="_blank" class="buttonStyle">Musique</a>
         <a href="photos.html" target="_blank" class="buttonStyle">Photos</a>
         <a href="blog.html" target="_blank" class="buttonStyle">Blog</a>
@@ -36,7 +36,7 @@
             <form action="action_page.php" method="post">
                 <section class="flex-container">
 
-                    <div class="flex-items-left">
+                    <div class="flex-items">
                         <label for="name">Nom:</label><br>
                         <input class="inputType label"  type="text" id="name" name="nom" required><br>
 
@@ -73,20 +73,19 @@
                         <label for="choix4">A quoi riment ces suggestions ?</label><br>
                     </div>
 
-                    <div class="flex-items-right">
+                    <div class="flex-items">
                         <label for="message">Message:</label><br>
                         <textarea class="inputType" id="message" name="message" required></textarea><br><br>
                         <label for="dateInput">Consultez nos disponibilités :</label><br>
                         <input type="date" id="dateInput">
-                        <a href="calendrier.html"></a><br><br><br>
+                        <a href="calendrier.html"></a><br>
                         <p>Sélectionnez votre Chanson Totem : </p>
                         <label for="radio"> Elle Préfère : </label><br>
 
-                        <input type="radio" id="radio1" value="1"> <label for="radio" >"Manger à la cantine"</label><br><br>
-                        <input type="radio" id="radio2" value="2"> <label for="radio">"L'amour en mer"</label><br><br>
+                        <input type="radio" id="radio" name="préférence"> <label for="radio" >"Manger à la cantine"</label><br><br>
+                        <input type="radio" id="radio" name="préférence"> <label for="radio">"L'amour en mer"</label><br><br>
                     </div>
-                    <label for="submit"></label>
-                    <input type="submit" class="submitButton" id="submit">
+                    <input type="submit" class="submitButton  hover" id="submit" value="envoyer">
                 </section>
             </form>
         </article>
